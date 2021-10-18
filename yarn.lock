@@ -10072,6 +10072,11 @@
     "use-callback-ref" "^1.2.1"
     "use-sidecar" "^1.0.1"
 
+"react-icons@^4.3.1":
+  "integrity" "sha512-cB10MXLTs3gVuXimblAdI71jrJx8njrJZmNMEMC+sQu5B/BIOmlsAjskdqpn81y8UBVEGuHODd7/ci5DvoSzTQ=="
+  "resolved" "https://registry.npmjs.org/react-icons/-/react-icons-4.3.1.tgz"
+  "version" "4.3.1"
+
 "react-image-file-resizer@^0.4.7":
   "integrity" "sha512-Dak7Ecrd6WEV5LjqoRYFI49ASn7eB1VTlrw6dri9HeIMS6aJang4nli6q5xeckEMY+7QwgqgWqAQD5tgkm4bJg=="
   "resolved" "https://registry.npmjs.org/react-image-file-resizer/-/react-image-file-resizer-0.4.7.tgz"
