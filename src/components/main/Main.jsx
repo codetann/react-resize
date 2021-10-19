@@ -17,9 +17,9 @@ export const Main = () => {
     <VStack
       w="100vw"
       h="100vh"
-      border="4px solid black"
-      p="6rem 2rem 2rem 2rem"
       maxW="9xl"
+      p="6rem 2rem 2rem 2rem"
+      border="4px solid black"
     >
       {!file && (
         <>
@@ -50,22 +50,22 @@ export const Main = () => {
       )}
       {file && (
         <VStack
-          spacing="2rem"
           h="100%"
-          justify="center"
-          align="middle"
           maxW="9xl"
+          align="middle"
+          spacing="2rem"
+          justify="center"
         >
           <Image
-            border="4px solid black"
             maxH="60vh"
+            border="4px solid black"
             src={URL.createObjectURL(file)}
           />
           <Button
-            border="4px solid black"
-            rounded="none"
             h="3rem"
+            rounded="none"
             bg="purple.200"
+            border="4px solid black"
           >
             Customize
           </Button>
